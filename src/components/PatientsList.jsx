@@ -27,37 +27,37 @@ const PatientsList = () => {
                     <p className="font-normal text-gray-400 text-sm p-1">Newyork, United States</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-blue-400" style={{color:"#757575"}}>Dashboard</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-blue-400" >Dashboard</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Appointments</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Appointments</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>My Patients</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >My Patients</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Schedule Timings</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Schedule Timings</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Invoices</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Invoices</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Reviews</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Reviews</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Message</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Message</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Profile Settings</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Profile Settings</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Social Media</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Social Media</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Change Password</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Change Password</p>
                 </div>
                 <div className="container-fluid border-1 border-slate-100 py-4">
-                    <p className="text-left	pl-4 pr-3 text-md capitalize	hover:text-sky-400" style={{color:"#757575"}}>Logout</p>
+                    <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Logout</p>
                 </div>
             </div>
             <div className="w-3/4 ml-8 px-3 py-2 h-screen overflow-y-auto">
