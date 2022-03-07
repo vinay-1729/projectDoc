@@ -12,7 +12,6 @@ const HomePage = () => {
         </div>
         <div className="mx-2">
             <div className="">
-
             </div>
             <div className="mx-2 lg:mx-12 my-4 shadow-md justify-between bg-gray-50">
                     
