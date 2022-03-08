@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./NavbarCss.css";
 import { Nav,NavLink, Bars, NavMenu, NavBtn, NavBtnLink } from './NavbarElements';
 
-
 const Navbar = () => {
 
     const [showmedia, setshowmedia] = useState(false);

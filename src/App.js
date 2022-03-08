@@ -3,7 +3,8 @@ import "./App.css";
 // import SignupPage from "../src/components/SignupPage";
 // import PatientsList from "./components/PatientsList";
 // import HomePage from "../src/components/HomePage";
-import PatientDashboard from "../src/components/PatientDashboard"
+import PatientDashboard from "./components/Dashboard/PatientDashboard"
+import Dashboard from "../src/components/Dashboard/Dashboard"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       {/* <PatientsList /> */}
       {/* <HomePage /> */}
       <PatientDashboard />
+      {/* <Dashboard /> */}
     </div>
   );
 }
