@@ -19,7 +19,7 @@ const PatientDashboard = () => {
           </div>
       </div>
       <div className="bg-gray-50 flex p-6">
-            <div className="bg-grey-100 h-auto shadow-md w-1/4">
+            <div className="bg-grey-100 h-auto shadow-lg w-1/4">
                     <div className="w-full flex  justify-center p-2">
                         <img src={patient} alt="" width="120" height="120" className="border-4 border-gray-200 rounded-full"/>
                     </div>
@@ -61,7 +61,7 @@ const PatientDashboard = () => {
                         Logout</p>
                 </li>
             </div>
-            <div className="w-3/4 ml-8 px-3 py-2 h-screen overflow-y-auto">
+            <div className="w-3/4 ml-8 px-3 py-2 shadow-lg h-screen overflow-y-auto">
             <nav class="user-tabs mb-4">
                 <ul class="nav nav-tabs nav-tabs-bottom nav-justified">
                     <li class="nav-item">
