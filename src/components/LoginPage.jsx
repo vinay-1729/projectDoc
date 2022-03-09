@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import {AiOutlineEye ,AiOutlineEyeInvisible} from 'react-icons/ai'
+import {FiFacebook} from 'react-icons/fi'
+import {FcGoogle} from 'react-icons/fc'
+
 
 export default function LoginPage() {
   const [state,setState] = useState(false);
@@ -27,14 +30,16 @@ export default function LoginPage() {
           <div className="lg:flex">
               <button role="button" className="border border-gray-300 w-3/4 lg:w-full mt-6 rounded-[15px] hover:bg-slate-100">
                 <div className="flex mx-2 my-2 justify-center">
-                < img class=" h-5 cursor-pointer " src="https://i.imgur.com/arC60SB.png" alt="" />
+                {/* < img class=" h-5 cursor-pointer " src="https://i.imgur.com/arC60SB.png" alt="" /> */}
+                <FcGoogle className="h-5 cursor-pointer" />
                 <p class="text-md px-2 text-gray-600">Continue with Google</p>
                 </div>
                 </button>
 
                 <button role="button" className="border border-gray-300 w-3/4 lg:w-full lg:ml-2 mt-6 rounded-[15px] hover:bg-slate-100">
                 <div className="flex mx-2 my-2 justify-center">
-                < img class=" h-5 cursor-pointer " src="https://i.imgur.com/p0LvxkX.png" alt="" />
+                {/* < img class=" h-5 cursor-pointer " src="https://i.imgur.com/p0LvxkX.png" alt="" /> */}
+                <FiFacebook className="h-5 cursor-pointer" />
                 <p class="text-md px-2 text-gray-600">Continue with Facebook</p>
                 </div>
                 </button>
