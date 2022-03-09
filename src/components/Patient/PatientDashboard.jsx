@@ -1,18 +1,15 @@
 import React from 'react'
-import { useState } from "react";
+// import { useState } from "react";
 import "./PatientDashboard.css" 
 import patient from '../../img/patient.jpg';
-import doctor from '../../img/doctor-thumb-02.jpg';
+// import doctor from '../../img/doctor-thumb-02.jpg';
 import { MdOutlineSpaceDashboard,MdOutlineFavorite,MdPassword} from 'react-icons/md';
 import { FiMessageSquare} from 'react-icons/fi';
 import {GrUserSettings} from 'react-icons/gr';
 import {RiLogoutBoxRLine} from 'react-icons/ri'
+import Tabs from './Tabs/Tab'
 
 const PatientDashboard = () => {
-    const [toggleState, setToggleState] = useState(1);
-    const toggleTab = (index) => {
-        setToggleState(index);
-    };
   return (
     <div className="">
           <div className="container-fluid h-24" style={{backgroundColor: "#15558d"}}>
@@ -28,7 +25,7 @@ const PatientDashboard = () => {
           </div>
       </div>
       <div className="bg-gray-50 flex p-6">
-            <div className="bg-grey-100 h-auto shadow-lg w-1/4">
+            <div className="bg-grey-100 h-auto shadow-lg w-2/12">
                     <div className="w-full flex  justify-center p-2">
                         <img src={patient} alt="" width="120" height="120" className="border-4 border-gray-200 rounded-full"/>
                     </div>
@@ -73,33 +70,8 @@ const PatientDashboard = () => {
                 </li>
                 </ul>
             </div>
-            <div className="w-3/4 ml-8 px-3 py-2 shadow-lg h-screen overflow-y-auto">
-            <nav class="user-tabs mb-4">
-                <div className="container m-2 shadow-md">
-                    <div className="bloc-tabs">
-                        <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)} > Appointments </button>
-                        <button className={toggleState === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(2)} > Prescriptions </button>
-                    </div>
-
-                    <div className="content-tabs">
-                        <div className={toggleState === 1 ? "content active-content" : "content"}>
-                        <p>dddd
-                            Lorem ipsum doldor sit amet consectetur adipisicing elit. Obcaecati
-                            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-                            vel voluptatum?
-                        </p>
-                        </div>
-                        <div className={toggleState === 2 ? "content  active-content" : "content"}>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-                            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-                            vel voluptatum?
-                        </p>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-                
+            <div className="w-10/12 ml-8 px-3 py-2 shadow-lg h-screen overflow-y-auto">
+            <Tabs name1={"Appointments"} name2={"Prescriptions"} />
             </div>
       </div>
       </div>
