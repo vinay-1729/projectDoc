@@ -1,6 +1,7 @@
 import React from 'react'
 import patient from '../../img/patient.jpg';
 import doctor from '../../img/doctor-thumb-02.jpg';
+import Tabs from '../Tabs/Tab';
 
 const Dashboard = () => {
   return (
@@ -91,24 +92,8 @@ const Dashboard = () => {
                     </div>
                 </div>
                 <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
-                    <div className="p-1 flex">
-                    <img src={patient} alt="" width="120" height="120"/>
-                    <div className="text-left ml-8 p-2">
-                        <p className="font-semibold text-lg">Richard Wilson</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">14 Nov 2019, 10.00 AM</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">Newyork, United States</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">richard@example.com</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">+1 923 782 4575</p>
-                    </div>
-                    </div>
-                    <div className="flex m-4 pt-8">
-                        <div className="">
-                        <button type="button" class="bg-slate-100 text-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "><i class="fa fa-eye-open"></i>View</button>
-                        <button type="button" class="bg-green-100 text-green-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Accept</button>
-                        <button type="button" class="bg-red-100 text-red-400	 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Cancel</button>
-
-                        </div>
-                    </div>
+                    
+                    <Tabs />                    
                 </div>
                 
 
