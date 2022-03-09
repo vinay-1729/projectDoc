@@ -7,6 +7,7 @@ import { MdOutlineSpaceDashboard,MdOutlineFavorite,MdPassword} from 'react-icons
 import { FiMessageSquare} from 'react-icons/fi';
 import {GrUserSettings} from 'react-icons/gr';
 import {RiLogoutBoxRLine} from 'react-icons/ri'
+import Tabs from '../Tabs/Tab'
 
 const PatientDashboard = () => {
     const [toggleState, setToggleState] = useState(1);
@@ -74,7 +75,7 @@ const PatientDashboard = () => {
                 </ul>
             </div>
             <div className="w-3/4 ml-8 px-3 py-2 shadow-lg h-screen overflow-y-auto">
-            <nav class="user-tabs mb-4">
+            {/* <nav class="user-tabs mb-4">
                 <div className="container m-2 shadow-md">
                     <div className="bloc-tabs">
                         <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)} > Appointments </button>
@@ -98,8 +99,9 @@ const PatientDashboard = () => {
                         </div>
                     </div>
                 </div>
-            </nav>
-                
+            </nav> */}
+            <Tabs name1={"Appointments"} name2={"Prescriptions"} />
+            
             </div>
       </div>
       </div>

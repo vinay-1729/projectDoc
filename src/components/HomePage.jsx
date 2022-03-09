@@ -6,7 +6,7 @@ import connect from '../img/connect.jpg';
 import prepare from '../img/prepare.jpg';
 import { CheckIcon } from './Navbar/NavbarElements';
 
-const HomePage = () => {
+export default function HomePage() {
   return (
     <div className="container-fluid">
         <div class="lg:flex">
@@ -109,5 +109,3 @@ const HomePage = () => {
     </div>
   )
 }
-
-export default HomePage

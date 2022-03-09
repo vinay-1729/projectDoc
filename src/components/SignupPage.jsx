@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function LoginPage() {
   return (
     <div className="flex justify-center md:my-12 lg:my-12">
