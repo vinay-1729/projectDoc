@@ -15,35 +15,32 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
            }
       }, [d,dd]);
   return (
-    <div class="bg-white  py-2  w-full">
+    <div class="bg-white   w-full">
         <div className="w-full">
-            <div class="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
-                <div class="inline-block min-w-full shadow rounded-lg overflow-hidden">
-                    <table class="min-w-full leading-normal">
-                        <thead>
+            <div class="sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                <div class="inline-block min-w-full shadow overflow-hidden">
+                    <table class="min-w-full leading-normal text-center">
+                    <thead>
                             <tr>
                                 <th
-                                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                    class="px-5 py-3 border-b-2  border-gray-200 w-3/12 text-center text-sm  text-gray-700 uppercase tracking-wider">
                                     {n1}
                                 </th>
                                 <th
-                                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                    class="px-5 py-3 border-b-2  border-gray-200 w-2/12 text-center text-sm  text-gray-700uppercase tracking-wider">
                                     {n2}
                                 </th>
                                 <th
-                                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                    class="px-5 py-3 border-b-2  border-gray-200 w-2/12 text-center text-sm  text-gray-700uppercase tracking-wider">
                                     {n3}
                                 </th>
                                 <th
-                                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                    class="px-5 py-3 border-b-2  border-gray-200 w-2/12 text-center text-sm  text-gray-700uppercase tracking-wider">
                                     {n4}
                                 </th>
                                 <th
-                                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+                                    class="px-5 py-3 border-b-2  border-gray-200 w-3/12  text-center text-sm  text-gray-700uppercase tracking-wider">
                                     {n5}
-                                </th>
-                                <th
-                                    class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                                 </th>
                             </tr>
                         </thead>
@@ -51,7 +48,7 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
                             {details.map((detail) => (
                                 <tr>
                                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                        <div class="flex items-center">
+                                        <div class="flex justify-center">
                                             <div class="flex-shrink-0 w-10 h-10">
                                                 <img class="w-full h-full rounded-full"
                                                     src={detail.url}
@@ -60,6 +57,9 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
                                             <div class="ml-3">
                                                 <p class="text-gray-900 whitespace-no-wrap">
                                                     {detail.fullName}
+                                                </p>
+                                                <p  className="text-gray-500 text-left whitespace-no-wrap">
+                                                    {detail.id}    
                                                 </p>
                                             </div>
                                         </div>
@@ -78,10 +78,12 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
                                         </p>
                                     </td>
                                     <td>
-                                    <div className="flex pt-4 mr-0">
+                                    <div className="flex pt-4 mr-0 justify-center">
                                         <div className="flex">
-                                        <button type="button" class="flex bg-slate-200 text-slate-800 font-small rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 "><AiOutlinePrinter />Print</button>
-                                        <button type="button" class="flex bg-green-100 text-green-400 font-small rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2"><AiOutlineEye />View</button>
+                                        <button type="button" class="flex bg-slate-100 text-slate-800 font-small rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 place-items-center hover:bg-slate-200">
+                                            <AiOutlinePrinter className="mr-2" />Print</button>
+                                        <button type="button" class="flex bg-green-100 ml-4 text-green-800 font-small rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 place-items-center hover:bg-green-200">
+                                            <AiOutlineEye className="mr-2" />View</button>
                                 
                                         </div>
                                     </div>

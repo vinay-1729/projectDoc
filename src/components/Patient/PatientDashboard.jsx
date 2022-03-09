@@ -36,34 +36,34 @@ const PatientDashboard = () => {
                 </div>
                 <ul>
                 <li className="container-fluid list-none border-1 cursor-pointer border-slate-100 py-4">
-                    <div className="flex text-left	px-4 text-md capitalize text-gray-600	hover:text-sky-400">
-                    <MdOutlineSpaceDashboard /><a className="ml-2" >Dashboard</a>
+                    <div className="flex text-left	px-4 text-md capitalize text-gray-600 place-items-center hover:text-sky-400">
+                    <MdOutlineSpaceDashboard className="mr-2"/><a className="ml-2" >Dashboard</a>
                     </div>
                 </li>
                 <li className="container-fluid list-none border-1 cursor-pointer border-slate-100 py-4">
-                    <div className="flex text-left	px-4 text-md capitalize text-gray-600	hover:text-sky-400">
-                    <MdOutlineFavorite /><a className="ml-2" >Favorites</a>
+                    <div className="flex text-left	px-4 text-md capitalize text-gray-600 place-items-center hover:text-sky-400">
+                    <MdOutlineFavorite className="mr-2"/><a className="ml-2" >Favorites</a>
                     </div>
                 </li>
                 <li className="container-fluid list-none border-1 cursor-pointer border-slate-100 py-4">
-                    <div className="flex text-left	px-4 text-md capitalize text-gray-600	hover:text-sky-400">
-                    <FiMessageSquare /><a className="ml-2" >Messages</a>
+                    <div className="flex text-left	px-4 text-md capitalize text-gray-600 place-items-center hover:text-sky-400">
+                    <FiMessageSquare className="mr-2"/><a className="ml-2" >Messages</a>
                     </div>
                 </li>
                 <li className="container-fluid list-none border-1 cursor-pointer border-slate-100 py-4">
-                    <div className="flex text-left	px-4 text-md capitalize text-gray-600	hover:text-sky-400">
-                    <GrUserSettings /><a className="ml-2" >User Settings</a>
+                    <div className="flex text-left	px-4 text-md capitalize text-gray-600 place-items-center hover:text-sky-400">
+                    <GrUserSettings className="mr-2"/><a className="ml-2" >User Settings</a>
                     </div>
                 </li>
 
                 <li className="container-fluid list-none border-1 cursor-pointer border-slate-100 py-4">
-                    <div className="flex text-left	px-4 text-md capitalize text-gray-600	hover:text-sky-400">
-                    <MdPassword /><a className="ml-2" >Change Password</a>
+                    <div className="flex text-left	px-4 text-md capitalize text-gray-600 place-items-center hover:text-sky-400">
+                    <MdPassword className="mr-2"/><a className="ml-2" >Change Password</a>
                     </div>
                 </li>
                 <li className="container-fluid list-none border-1 cursor-pointer border-slate-100 py-4">
-                    <div className="flex text-left	px-4 text-md capitalize text-gray-600	hover:text-sky-400">
-                    <RiLogoutBoxRLine /><a className="ml-2" >Logout</a>
+                    <div className="flex text-left	px-4 text-md capitalize text-gray-600 place-items-center hover:text-sky-400">
+                    <RiLogoutBoxRLine className="mr-2"/><a className="ml-2" >Logout</a>
                     </div>
                 </li>
                 </ul>
