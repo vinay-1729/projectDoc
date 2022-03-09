@@ -1,5 +1,4 @@
 import React from 'react'
-import "./PatientDashboard.css" 
 import patient from '../../img/patient.jpg';
 import { MdOutlineSpaceDashboard,MdOutlineFavorite,MdPassword} from 'react-icons/md';
 import { FiMessageSquare} from 'react-icons/fi';
