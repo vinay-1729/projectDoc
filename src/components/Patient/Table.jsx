@@ -1,9 +1,19 @@
-import {React, useState} from 'react'
-import data from "./appointments.json"
+import {React, useState, useEffect} from 'react'
+import data from './appointments.json'
+import presc from './prescription.json'
 import {AiOutlinePrinter,AiOutlineEye} from 'react-icons/ai'
 
-const Table = ({n1,n2,n3,n4,n5}) => {
+const Table = ({n1,n2,n3,n4,n5,d}) => {
     const [details,setDetails] = useState(data);
+    const [dd,setDd] = useState(d);
+    useEffect(() => {
+        if (d === 1){
+            setDetails(data);
+           }
+           else if(d === 2){
+            setDetails(presc)
+           }
+      }, [d,dd]);
   return (
     <div class="bg-white  py-2  w-full">
         <div className="w-full">

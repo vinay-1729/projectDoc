@@ -1,12 +1,17 @@
 import { useState } from "react";
 import "./tabs.css";
 import Table from "../Table"
+import data from '../appointments.json'
+import presc from '../prescription.json'
 
 function Tabs({name1,name2}) {
   const [toggleState, setToggleState] = useState(1);
+  const [details, setDetails] = useState(data);
+
 
   const toggleTab = (index) => {
     setToggleState(index);
+   
   };
 
   return (
@@ -33,10 +38,10 @@ function Tabs({name1,name2}) {
       {/* Below will be the dashboard table  */}
       <div className="">
         <div className={toggleState === 1 ? "content  active-content" : "content"}>
-            <Table n1="Doctor" n2="Appt date" n3="booking Date" n4="Follow Up" n5="Invoice"/>
+            <Table n1="Doctor" n2="Appt date" n3="booking Date" n4="Follow Up" n5="Invoice" d={toggleState}/>
         </div>
         <div className={toggleState === 2 ? "content  active-content" : "content"}>
-          <Table n1="Created by" n2="Alloted date" n3="Presciption name" n4="Deadline" n5="Prescription"/>
+          <Table n1="Created by" n2="Alloted date" n3="Presciption name" n4="Deadline" n5="Prescription" d={toggleState}/>
         </div>
       </div>
     </div>
