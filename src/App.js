@@ -13,8 +13,8 @@ function App() {
       {/* <SignupPage /> */}
       {/* <PatientsList /> */}
       {/* <HomePage /> */}
-      <PatientDashboard />
-      {/* <Dashboard /> */}
+      {/* <PatientDashboard /> */}
+      <Dashboard />
     </div>
   );
 }

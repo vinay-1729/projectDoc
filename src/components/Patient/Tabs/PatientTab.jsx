@@ -1,17 +1,12 @@
 import { useState } from "react";
-import "./tabs.css";
+import "./Patienttabs.css";
 import Table from "../Table"
-import data from '../appointments.json'
-import presc from '../prescription.json'
 
 function Tabs({name1,name2}) {
   const [toggleState, setToggleState] = useState(1);
-  const [details, setDetails] = useState(data);
-
-
+  
   const toggleTab = (index) => {
     setToggleState(index);
-   
   };
 
   return (

@@ -1,13 +1,11 @@
 import React from 'react'
-// import { useState } from "react";
 import "./PatientDashboard.css" 
 import patient from '../../img/patient.jpg';
-// import doctor from '../../img/doctor-thumb-02.jpg';
 import { MdOutlineSpaceDashboard,MdOutlineFavorite,MdPassword} from 'react-icons/md';
 import { FiMessageSquare} from 'react-icons/fi';
 import {GrUserSettings} from 'react-icons/gr';
 import {RiLogoutBoxRLine} from 'react-icons/ri'
-import Tabs from './Tabs/Tab'
+import Tabs from './Tabs/PatientTab'
 
 const PatientDashboard = () => {
   return (

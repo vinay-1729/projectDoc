@@ -30,11 +30,6 @@ const Tabs = () => {
         </div>
       </div>
 
-
-
-
-
-
       {/* Below will be the dashboard table  */}
 
       <div className="">
