@@ -5,7 +5,7 @@ import { MdOutlineSpaceDashboard,MdOutlineFavorite,MdPassword} from 'react-icons
 import { FiMessageSquare} from 'react-icons/fi';
 import {GrUserSettings} from 'react-icons/gr';
 import {RiLogoutBoxRLine} from 'react-icons/ri'
-import Tabs from './Tabs/Tab'
+import Tabs from './Tabs/PatientTab'
 
 const PatientDashboard = () => {
   return (

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./tabs.css";
+import "./Patienttabs.css";
 import Table from "../Table"
 
 function Tabs({name1,name2}) {
@@ -7,7 +7,6 @@ function Tabs({name1,name2}) {
   
   const toggleTab = (index) => {
     setToggleState(index);
-   
   };
 
   return (
