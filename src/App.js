@@ -11,9 +11,9 @@ function App() {
     <div className="App container mx-auto">
         <LoginPage />
       {/* <SignupPage /> */}
-      {/* <PatientsList /> */}
+      <PatientsList />
       {/* <HomePage /> */}
-      <PatientDashboard />
+      {/* <PatientDashboard /> */}
       {/* <Dashboard /> */}
     </div>
   );
