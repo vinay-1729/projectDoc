@@ -5,6 +5,7 @@ import PatientsList from "./components/PatientsList";
 import HomePage from "../src/components/HomePage";
 import PatientDashboard from "./components/Patient/PatientDashboard"
 import Dashboard from "../src/components/Dashboard/Dashboard"
+import ChatBody from "./components/Chat/components/chatBody/ChatBody"
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <PatientsList /> */}
       {/* <HomePage /> */}
       {/* <PatientDashboard /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <ChatBody />
     </div>
   );
 }
