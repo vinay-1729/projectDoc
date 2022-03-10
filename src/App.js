@@ -15,9 +15,9 @@ function App() {
       {/* <PatientsList /> */}
       {/* <HomePage /> */}
       {/* <PatientDashboard /> */}
-      {/* <Dashboard /> */}
+      <Dashboard />
       {/* <ChatBody /> */}
-      <Prescription />
+      {/* <Prescription /> */}
     </div>
   );
 }

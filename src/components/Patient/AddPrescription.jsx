@@ -34,24 +34,33 @@ const Prescription = () => {
                         <RiUserLocationFill className="mr-2"  />Newyork, USA</p>
                 </div>
                 <div className="p-6">
-                    <div className="flex p-2">
-                        <p className="text-left font-semibold">Phone </p>
-                        <p className="text-right">+91 5848351131</p>
+                    <div className="flex p-2 justify-between">
+                        <p className=" font-semibold">Phone </p>
+                        <p className="">+91 5848351131</p>
                     </div>
-                    <div className="flex p-2">
+                    <div className="flex p-2 justify-between">
                         <p className="font-semibold">Age </p>
-                        <p className="text-right">38 Years, Male</p>
+                        <p className="">38 Years, Male</p>
                     </div>
-                    <div className="flex p-2">
+                    <div className="flex p-2 justify-between">
                         <p className="font-semibold">Blood Group</p>
-                        <p className="text-right">AB+</p>
+                        <p className="">AB+</p>
                     </div>
                 </div>
             </div>
-            <div className="lg:ml-4 w-full px-3 py-2 shadow-md h-screen ">
+            <div className="lg:ml-4 w-full px-3 bg-white py-2 shadow-md h-screen ">
                 <div className="p-4 font-[630] text-left text-lg border-b">Edit Prescription</div>
-                <div className="p-6">
-
+                <div className="lg:flex p-6 lg:justify-between">
+                    <div className="text-left">
+                        <p className="font-semibold text-xl mb-2">Dr. Darren ELder</p>
+                        <p className="text-gray-400">Dentist</p>
+                        <p className="text-gray-400">NewYork, United States</p>
+                    </div>
+                    <div className="sm:mt-4 text-left">
+                        <p className="font-semibold text-xl mb-2">1 November 2019</p>    
+                        <p className="text-gray-400">#INV001</p>
+                    </div>
+                    
                 </div>
             </div>
       </div>
