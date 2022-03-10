@@ -17,7 +17,7 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
   return (
     <div class="bg-white   w-full">
         <div className="w-full">
-            <div class="sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+            <div class="sm:-mx-8 px-4 sm:px-8 py-4 overflow-y-auto">
                 <div class="inline-block min-w-full shadow overflow-hidden">
                     <table class="min-w-full leading-normal text-center">
                     <thead>
@@ -78,7 +78,7 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
                                         </p>
                                     </td>
                                     <td>
-                                    <div className="flex pt-4 mr-0 justify-center">
+                                    <div className="flex border-b px-5 py-5 mr-0 border-gray-200 bg-white text-sm justify-center">
                                         <div className="flex">
                                         <button type="button" class="flex bg-slate-100 text-slate-800 font-small rounded-lg text-sm px-2 py-2.5 text-center mr-2 mb-2 place-items-center hover:bg-slate-200">
                                             <AiOutlinePrinter className="mr-2" />Print</button>
@@ -93,7 +93,7 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
                             
                         </tbody>
                     </table>
-                    <div
+                    {/* <div
                         class="px-5 py-5 bg-white border-t flex flex-col xs:flex-row items-center xs:justify-between          ">
                         <span class="text-xs xs:text-sm text-gray-900">
                             Showing 1 to 5 of 50 Entries
@@ -109,7 +109,7 @@ const Table = ({n1,n2,n3,n4,n5,d}) => {
                                 Next
                             </button>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

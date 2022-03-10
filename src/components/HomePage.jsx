@@ -4,12 +4,12 @@ import banner from '../img/banner.jpg';
 import choose from '../img/choose.jpg';
 import connect from '../img/connect.jpg';
 import prepare from '../img/prepare.jpg';
-import { CheckIcon } from './Navbar/NavbarElements';
+import { CheckIcon } from '../components/Navbar/NavbarElements';
 
 export default function HomePage() {
   return (
     <div className="container-fluid">
-        <div class="lg:flex">
+        <div className="lg:flex">
             <img src={banner} alt="" />
         </div>
         <div className="">
@@ -37,7 +37,7 @@ export default function HomePage() {
                     <h2 className='lg:text-3xl text-xl mt-20 font-bold'> In an Emergency ?  Need Help Now?</h2>
                     <p className='text-wrap lg:w-8/12 w-10/12 lg:mt-10 md:mt-5 mt-4 lg:text-lg md:text-md sm:text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo et beatae, odit nihil ducimus, 
                         natus quos itaque hic porro obcaecati explicabo laudantium impedit soluta eius officia sunt tenetur placeat quia.</p>
-                    <Link to={""} className="border hover:bg-white hover:text-gray-800 hover:border-gray-700 rounded-full border-white mt-10 lg:text-2xl md:text-xl text-lg font-bold md:px-3 lg:px-5 md:py-2 lg:py-3 px-3 py-2 lg:w-4/12">
+                    <Link to="" className="border hover:bg-white hover:text-gray-800 hover:border-gray-700 rounded-full border-white mt-10 lg:text-2xl md:text-xl text-lg font-bold md:px-3 lg:px-5 md:py-2 lg:py-3 px-3 py-2 lg:w-4/12">
                         Make Appointment
                     </Link>
             </div>  
@@ -89,13 +89,13 @@ export default function HomePage() {
                         <h2 className='text-left font-bold text-lg p-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur enim, hic at ad minus</h2>
                         <h3 className='text-sm text-left text-gray-800 p-3'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ea ipsum repudiandae debitis consequuntur. Inventore, recusandae </h3>
                         <div className="">
-                        <p className='flex items-center p-3'><CheckIcon cl /> <p className='ml-6 text-gray-500 font-bold text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod porro ullam</p> </p>
+                        {/* <p className='flex items-center p-3'><CheckIcon cl /> <p className='ml-6 text-gray-500 font-bold text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod porro ullam</p> </p>
                         <p className='flex items-center p-3'><CheckIcon  /> <p className='ml-6 text-gray-500 font-bold text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod porro ullam</p> </p>
                         <p className='flex items-center p-3'><CheckIcon  /> <p className='ml-6 text-left text-gray-500 w-11/12 font-bold text-sm'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod porro ullam 
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod porro ullam
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod porro ullam
                             </p> 
-                        </p>
+                        </p> */}
                         <p className='p-5 text-left text-md text-gray-500 font-bold'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quibusdam velit accusamus quidem expedita molestiae optio ipsam, earum aperiam possimus maxime, officiis placeat distinctio laborum hic assumenda ullam excepturi reprehenderit!
                             officiis placeat distinctio laborum hic assumenda ullam excepturi reprehenderit!

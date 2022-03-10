@@ -1,11 +1,11 @@
 import "./App.css";
-// import LoginPage from "../src/components/LoginPage";
-// import SignupPage from "../src/components/SignupPage";
-import PatientsList from "./components/PatientsList";
-import HomePage from "../src/components/HomePage";
+// import LoginPage from "./components/Login/LoginPage";
+// import SignupPage from "./components/Login/SignupPage";
+// import PatientsList from "./components/PatientsList";
+// import HomePage from "../src/components/HomePage";
 import PatientDashboard from "./components/Patient/PatientDashboard"
-import Dashboard from "../src/components/Dashboard/Dashboard"
-import ChatBody from "./components/Chat/components/chatBody/ChatBody"
+import Prescription from "./components/Patient/AddPrescription.jsx"
+// import ChatBody from "./components/Chat/components/chatBody/ChatBody"
 
 function App() {
   return (
@@ -14,9 +14,10 @@ function App() {
       {/* <SignupPage /> */}
       {/* <PatientsList /> */}
       {/* <HomePage /> */}
-      <PatientDashboard />
+      {/* <PatientDashboard /> */}
       {/* <Dashboard /> */}
       {/* <ChatBody /> */}
+      <Prescription />
     </div>
   );
 }

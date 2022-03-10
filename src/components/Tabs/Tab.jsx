@@ -36,7 +36,7 @@ const Tabs = () => {
         <div className={toggleState === 1 ? "content  active-content" : "content"}>
             <div class="bg-white  w-full">
                 <div className="w-full">
-                    <div class="sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
+                    <div class="sm:-mx-8 px-4 sm:px-8 py-4 ">
                         <div class="inline-block min-w-full  overflow-hidden">
                             <table class="min-w-full leading-normal text-center">
                                 <thead>

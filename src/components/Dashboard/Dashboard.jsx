@@ -1,5 +1,4 @@
 import React from 'react'
-import patient from '../../img/patient.jpg';
 import doctor from '../../img/doctor-thumb-02.jpg';
 import Tabs from '../Tabs/Tab';
 
@@ -18,8 +17,8 @@ const Dashboard = () => {
               </div>
           </div>
       </div>
-      <div className="bg-gray-50 flex p-6">
-            <div className="bg-grey-100 shadow-md bg-white w-1/4">
+      <div className="bg-gray-50 p-6 grid grid-cols-1 md:grid-cols-1 lg:flex  gap-2 w-full">
+            <div className="bg-grey-100 shadow-md bg-white sm:w-6/12 md:w-full lg:w-4/12 w-full">
                     <div className="w-full flex  justify-center p-2">
                         <img src={doctor} alt="" width="120" height="120" className="border-4 border-gray-200 rounded-full"/>
                     </div>
@@ -61,8 +60,8 @@ const Dashboard = () => {
                     <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Logout</p>
                 </div>
             </div>
-            <div className="w-3/4 ml-8 px-3 h-screen   ">
-                <div className="bg-white shadow-sm mb-5 h-40 grid lg:grid-cols-3 xl:grid-col-3 md:grid-col-3 grid-col-1 p-3">
+            <div className=" w-full md:w-full lg:w-full px-3 h-screen   ">
+                <div className="bg-white shadow-sm mb-5 py-4 grid lg:grid-cols-3 xl:grid-col-3 md:grid-col-3 grid-col-1 p-3">
                     <div className="flex justify-start text-left items-center">
                         <div className="h-20 w-6/12 bg-gray-500">
                         </div>
